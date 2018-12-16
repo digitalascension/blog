@@ -1,0 +1,11 @@
+What is Digital Ascension?
+
+Digital Ascension is an Information Technology consultancy created by Luke Brady to help small and large businesses achieve their IT adoption goals without breaking the bank. Our goal is to assist businesses who may not have the resources or expertise accelerate their business with technology and automation. Here are a couple examples of how Digital Ascension can help you achieve your business goals.
+
+Example 1: You may use Microsoft Windows to run your business environment and have list of necessary, but tedious, tasks that could be automated. Digital Ascension could work with you to create a custom PowerShell script to automate these tasks, saving you time and money. We can also install and configure Windows Server and Windows specific applications.
+
+Example 2: Do you have a product or service that you would like to sell online, but do not want to deal with setting up an online store? If so, Digital Ascension can build your business a Shopify store. We have deep experience using the Shopify platform (this website was built with Shopify) and we love working with clients running small businesses.
+
+Who am I?
+
+I am an experienced Software and Systems Engineer with a passion for infrastructure automation and open-source development. I have an Bachelor's degree in Computer Science from the University of North Georgia and am currently pursing a Master's degree (also in Computer Science) from the Georgia Institute of Technology.
