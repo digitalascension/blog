@@ -1,0 +1,23 @@
+Commands to Know
+
+init - Initialize a directory containing Terraform configuration files.
+
+plan - Creates an execution plan and determines what is needed to achieve the desired state.
+
+apply - Apply changes to achieve the desired state configuration.
+
+destroy - Destroy the Terraform managed infrastructure.
+
+Introduction
+
+Have you ever heard the phrase "cattle not pets" when listening to someone talk about modern IT infrastructure? In a time where one application can run across thousands of servers, in multiple locations around the globe, modern IT operations teams must focus on the immutability and repeatability of their infrastructure. They cannot waste time worrying about manual configuration or deployment. IT teams must take advantage and utilize the tools that are available to remain relevant in the rapidly evolving and expanding digital market. One of these tools is known as Terraform. Terraform was created by HashiCorp as a part of their infrastructure automation suite. Terraform is a tool used to provision infrastructure across multiple public and private clouds as well as on-premise environments. So what makes Terraform so great? There are a few answers to that question. Terraform has grown in popularity because of two things: infrastructure immutability and state management. Infrastructure immutability (or immutable infrastructure) means that infrastructure should not be manually tweaked once it has been deployed. If a change needs to be made, the source code that created the infrastructure should be changed and then the resource should be re-deployed. State management is how Terraform keeps track of the infrastructure resource that has been created. During each apply, Terraform keeps track of every configuration change being made. This gives Terraform the ability to reference previous configurations and make changes based on past applies. Terraform also keeps track of metadata about the resources being changed or created. State also increases Terraform's performance by caching the details of the configuration so that each resource does not have to be queried when a Terraform apply occurs.
+
+Installing Terraform
+
+Because Terraform is written in Golang, installing Terraform couldn't be easier. To install Terraform on a *nix machine simply add Terraform's path to your profile using echo export PATH=$PATH:/path/to/terraform >> ~/.profile. This command will append Terraform to your systems path. Now reload your profile by running source ~/.profile. You can verify your Terraform installation by running terraform -v.
+
+Installing Terraform on Windows is a very similar process. After downloading Terraform, right-click on the Windows icon and click System > Advanced System Settings > Environment Variables. Click New under the User Variables box and add the variable name and Terraform's path. You can now confirm the changes by opening up PowerShell and running terraform -v.
+
+Congratulations, you have successfully installed Terraform on your system and you are ready to start creating basic Terraform configurations. In Part 2, I will cover how to create a basic Terraform configuration and how to initialize a directory so that Terraform can provision cloud resources. Until then, happy provisioning!
+
+You can download Terraform here.
